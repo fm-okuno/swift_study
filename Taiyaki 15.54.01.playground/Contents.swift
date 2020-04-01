@@ -1,7 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
-
 class Taiyaki { //Taiyakiクラスを宣言
     var nakami = "あんこ" //nakamiプロパティを宣言
     func sayNakami() { //sayNakamiメソッドを宣言
