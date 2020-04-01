@@ -11,4 +11,4 @@ var taiyaki = Taiyaki()
 taiyaki.nakami = "クリーム"
 taiyaki.sayNakami()
 
-//参考書p142「クラスを作成する」
+//参考書p142「クラスを作成する」test
