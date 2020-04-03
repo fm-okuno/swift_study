@@ -25,7 +25,7 @@
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="sayHello" destination="BYZ-38-t0r" eventType="touchUpInside" id="62f-gE-BkF"/>
+                                    <action selector="actionTextChangeButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="GXU-br-K08"/>
                                 </connections>
                             </button>
                         </subviews>
