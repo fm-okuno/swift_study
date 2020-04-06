@@ -15,11 +15,12 @@ class ViewController: UIViewController { //親クラス「UIViewControllerを」
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet private weak var label: UILabel! //labelと接続
+    
     private func showMessage(labelText:String) { //引数labelTextの内容をlabelに表示するshowMessageメソッド
         label.text = labelText
     }
 
-    @IBOutlet private weak var label: UILabel! //labelと接続
     @IBAction private func actionTextChangeButton() { //buttonと接続されたactionTextChangeButtonメソッド
        showMessage(labelText: "こんにちは")
     }
