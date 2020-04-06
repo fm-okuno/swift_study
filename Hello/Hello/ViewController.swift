@@ -10,6 +10,11 @@ import UIKit //UIKitフレームワークを読み込み
 
 class ViewController: UIViewController { //親クラス「UIViewControllerを」を継承した子クラス「ViewController」
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     private func showMessage(labelText:String) { //引数labelTextの内容をlabelに表示するshowMessageメソッド
         label.text = labelText
     }
@@ -18,10 +23,4 @@ class ViewController: UIViewController { //親クラス「UIViewControllerを」
     @IBAction private func actionTextChangeButton() { //buttonと接続されたactionTextChangeButtonメソッド
        showMessage(labelText: "こんにちは")
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
 }
